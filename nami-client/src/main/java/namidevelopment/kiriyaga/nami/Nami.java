@@ -14,7 +14,7 @@ import net.minecraft.util.Tuple;
 import static namidevelopment.kiriyaga.api.NamiApi.*;
 
 public class Nami implements ClientModInitializer {
-    public static String DISPLAY_NAME = "Nami";
+    public static String DISPLAY_NAME = "puppyDpi";
     public static long START_TIME = 0;
 
     public static final String VERSION;
@@ -23,7 +23,7 @@ public class Nami implements ClientModInitializer {
         if (mod != null) {
             VERSION = mod.getMetadata().getVersion().getFriendlyString();
         } else {
-            VERSION = "dev-environment";
+            VERSION = ":3";
         }
     }
 

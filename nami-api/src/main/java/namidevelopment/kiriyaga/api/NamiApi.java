@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 
 public class NamiApi implements ClientModInitializer {
 
-    public static String NAME = "Nami";
+    public static String NAME = "puppydpiware";
     public static final Logger LOGGER = LogManager.getLogger(NAME);
     public static final Minecraft MC = Minecraft.getInstance();
     public static final String API_VERSION;
@@ -32,7 +32,7 @@ public class NamiApi implements ClientModInitializer {
         if (mod != null) {
             API_VERSION = mod.getMetadata().getVersion().getFriendlyString();
         } else {
-            API_VERSION = "dev-environment";
+            API_VERSION = "67";
         }
     }
 
